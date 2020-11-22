@@ -28,8 +28,6 @@ class Stack {
     }
 }
 
-module.exports = Stack;
-
 // Create a stack called starTrek and add Kirk, Spock, McCoy, and Scotty to the stack.
 
 let trekStack = new Stack();
@@ -77,3 +75,5 @@ display(trekStack);
 trekStack.pop();
 trekStack.pop();
 display(trekStack);
+
+module.exports = { Stack, peek, isEmpty, display };
